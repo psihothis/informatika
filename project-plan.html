@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ШІ Vision | План проєкту</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">ШІ<span>Vision</span></a>
+    <button class="btn menu-toggle" id="menuToggle">☰ Меню</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Головна</a>
+      <a href="about-ai.html">Що таке ШІ</a>
+      <a href="technologies.html">Технології</a>
+      <a href="ethics.html">Етика і ризики</a>
+      <a href="project-plan.html" class="active">План проєкту</a>
+    </nav>
+    <div class="actions"><button class="btn" id="themeToggle">☀️ Світла тема</button></div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero reveal">
+    <span class="badge">Підсторінка 4</span>
+    <h1>План реалізації проєкту</h1>
+    <p class="subtitle">Готовий план, який можна показати на захисті та використати як дорожню карту.</p>
+  </section>
+
+  <section class="section reveal">
+    <h2>Етапи виконання</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Етап</th>
+            <th>Що робимо</th>
+            <th>Інструменти</th>
+            <th>Термін</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1. Дослідження</td>
+            <td>Збір фактів про ШІ, формування структури теми.</td>
+            <td>Google, підручники, статті</td>
+            <td>1 день</td>
+          </tr>
+          <tr>
+            <td>2. Дизайн</td>
+            <td>Палітра, шрифти, макет сторінок, UX-навігація.</td>
+            <td>HTML, CSS</td>
+            <td>1 день</td>
+          </tr>
+          <tr>
+            <td>3. Розробка</td>
+            <td>Верстка підсторінок, JS (меню, тема, анімації).</td>
+            <td>HTML, CSS, JS</td>
+            <td>2 дні</td>
+          </tr>
+          <tr>
+            <td>4. Тестування</td>
+            <td>Перевірка адаптивності й валідності структури.</td>
+            <td>Локальний сервер, браузер</td>
+            <td>1 день</td>
+          </tr>
+          <tr>
+            <td>5. Публікація</td>
+            <td>Завантаження на GitHub і запуск GitHub Pages.</td>
+            <td>GitHub</td>
+            <td>30 хв</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section split reveal">
+    <article class="card">
+      <h3>Чекліст перед публікацією</h3>
+      <ul>
+        <li>Усі сторінки мають працюючу навігацію.</li>
+        <li>Є адаптивність для телефона.</li>
+        <li>Вказані автори проєкту.</li>
+        <li>Файли лежать у корені репозиторію.</li>
+      </ul>
+    </article>
+    <article class="card">
+      <h3>Як захостити на GitHub Pages</h3>
+      <ul>
+        <li>Створіть репозиторій і завантажте всі файли.</li>
+        <li>Settings → Pages → Deploy from branch.</li>
+        <li>Branch: <code>main</code>, Folder: <code>/root</code>.</li>
+        <li>Отримайте публічний URL і вставте у Google Sites (Embed URL).</li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+<footer class="site-footer container">
+  <p class="authors">Паук Іван та Вагілевич Дмитро, 10-А клас</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
